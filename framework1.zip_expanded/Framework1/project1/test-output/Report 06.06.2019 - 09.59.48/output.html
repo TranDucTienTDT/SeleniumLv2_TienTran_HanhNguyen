@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<script langauge="JavaScript" type="text/javascript">
+function doMenu(item) {
+ obj=document.getElementById(item);
+ col=document.getElementById("x" + item);
+ if (obj.style.display=="none") {
+  obj.style.display="block";
+  col.innerHTML="[-]";
+ }
+ else {
+  obj.style.display="none";
+  col.innerHTML="[+]";
+ }
+}
+</script>
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+<a href="JavaScript:doMenu('log');" id=xmain>[+]</a> Steps:
+  <div id="log">
+                  <b>INFO: </b>TEST CASE: tests.project1.go.BugIntegration.verifyLoginTitle
+                        <b style="color: #44aa44;">VERIFY POINT: </b>Verify Login Title Page
+            </div>
+
+</body>
+</html>

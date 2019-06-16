@@ -1,0 +1,5 @@
+package pages.carrental;
+
+public class LoginPage extends GeneralPage{
+
+}

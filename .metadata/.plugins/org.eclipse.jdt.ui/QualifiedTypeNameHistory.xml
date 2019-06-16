@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Banana.HomePage"/>
+<fullyQualifiedTypeName name="Heypix.LoginPage"/>
+<fullyQualifiedTypeName name="General.GeneralPage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.safari.SafariDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="TADashboard.LoginPage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeOptions"/>
+<fullyQualifiedTypeName name="Constant.DriverType"/>
+<fullyQualifiedTypeName name="Constant.TestTarget"/>
+<fullyQualifiedTypeName name="TADashboard.GeneralPage"/>
+<fullyQualifiedTypeName name="Wrappers.Locator"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="Configs.TestEnvironmentConfig"/>
+<fullyQualifiedTypeName name="Constant.TestPlatform"/>
+<fullyQualifiedTypeName name="Configs.DriverConfigLoader"/>
+<fullyQualifiedTypeName name="Constant.Constant"/>
+<fullyQualifiedTypeName name="Configs.DriverConfig"/>
+<fullyQualifiedTypeName name="Wrappers.CustomWebDriver"/>
+<fullyQualifiedTypeName name="Common.TestExecuter"/>
+<fullyQualifiedTypeName name="Wrappers.DriverManager"/>
+<fullyQualifiedTypeName name="Common.Utilities"/>
+<fullyQualifiedTypeName name="com.logigear.testfw.common.BasePOM"/>
+<fullyQualifiedTypeName name="com.logigear.testfw.element.Element"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.How"/>
+<fullyQualifiedTypeName name="com.logigear.testfw.common.Common"/>
+<fullyQualifiedTypeName name="com.logigear.test.ta_dashboard.pom.HomePage"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="pages.carrental.LoginPage"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+</qualifiedTypeNameHistroy>

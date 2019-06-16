@@ -1,0 +1,23 @@
+package tests.carrental;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class LoginTest {
+
+	@BeforeMethod
+	public void setup() {
+
+	}
+	
+	@Test
+	public void TC01_LoginTest() {
+		
+	}
+	
+	@AfterMethod
+	public void tearDown() {
+
+	}
+}

@@ -1,0 +1,19 @@
+package pages.carrental;
+
+import com.logigear.control.common.IButton;
+import com.logigear.control.common.ITextBox;
+import com.logigear.control.common.imp.Button;
+import com.logigear.control.common.imp.TextBox;
+
+public class LoginPage extends GeneralPage {
+	
+	private ITextBox usernameTextBox = new TextBox("");
+	private ITextBox passwordTextBox = new TextBox("");
+	private IButton loginButon = new Button("");
+	
+	public void login(String username, String password) {
+		usernameTextBox.enter(username);
+		passwordTextBox.enter(password);
+		loginButon.click();
+	}
+}

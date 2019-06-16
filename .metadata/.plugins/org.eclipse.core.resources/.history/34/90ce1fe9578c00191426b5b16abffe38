@@ -1,0 +1,21 @@
+package com.logigear.testfw.element;
+
+import java.util.logging.Logger;
+
+import org.openqa.selenium.By;
+
+import com.logigear.testfw.conf.LogWrapper;
+
+public class Link extends Element{
+	
+	private static final Logger LOG = LogWrapper.createLogger(Link.class.getName());
+
+	public Link(By locator) {
+		super(locator);
+	}
+
+	public Link(String xpath) {
+		super(xpath);
+	}
+
+}

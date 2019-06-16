@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;TienTran_6348_Railway&apos; to &apos;TienTran_6348_Railway1&apos;" description="Rename resource &apos;TienTran_6348_Railway&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/TienTran_6348_Railway" name="TienTran_6348_Railway1" stamp="1548597229093" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;TienTran_6348_Railway1&apos;" deleteContents="true" description="Delete resource &apos;TienTran_6348_Railway1&apos;" element1="/TienTran_6348_Railway1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1548597936263"/>
+</session>

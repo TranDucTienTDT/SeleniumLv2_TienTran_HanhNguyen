@@ -1,0 +1,8 @@
+{
+	"default": {
+		"lnkAddNew": {
+			"type": "xpath",
+			"value": "//div[@class='panel_tag2']/a"
+		}
+	}
+}

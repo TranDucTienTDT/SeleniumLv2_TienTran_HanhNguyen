@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="utils.config.TestListener" />
+	</listeners>
+
+	<test name="Run Chrome Local">
+		<parameter name="browser" value="chrome.local" />
+		<parameter name="mode" value="desktop" />
+		<parameter name="autoLogBug" value="false" />
+		<classes>
+			<class name="tests.invoice2go.EndToEnd" />
+		</classes>
+	</test>
+	<test name="Run Safari Remote">
+		<parameter name="browser" value="safari.remote" />
+		<parameter name="mode" value="desktop" />
+		<parameter name="autoLogBug" value="false" />
+		<classes>
+			<class name="tests.invoice2go.EndToEnd" />
+		</classes>
+	</test>
+	<test name="Run Mobile Local">
+		<parameter name="browser" value="android.remote" />
+		<parameter name="mode" value="mobile" />
+		<parameter name="autoLogBug" value="false" />
+		<classes>
+			<class name="tests.invoice2go.EndToEnd" />
+		</classes>
+	</test>
+</suite>

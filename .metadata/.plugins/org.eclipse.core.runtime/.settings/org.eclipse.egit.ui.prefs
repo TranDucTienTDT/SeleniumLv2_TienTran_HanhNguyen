@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Edit GeneralPage, HomePage, PanelTest, BaseTest, PanelDialog,&\#x0A;PanelListPage</message>\r\n<message>Edit file GeneralPage</message>\r\n<message>Untrack pom.properties</message>\r\n<message>Update code for PanelTest</message>\r\n<message>Tien Tran&\#x0A;&\#x0A;Add POM and json file\: PanelListPage, AddNewPanelPage&\#x0A;&\#x0A;Date\: 11/06/2019</message>\r\n<message>&\#x09;/*&\#x0A;&\#x09; * Author\: Tien Tran&\#x0A;&\#x09; * Method name\:&\#x0A;&\#x09; * Purpose/Description\: Add panelPages json&\#x0A;&\#x09; *&\#x0A;&\#x09;  /</message>\r\n<message>New Selenium</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

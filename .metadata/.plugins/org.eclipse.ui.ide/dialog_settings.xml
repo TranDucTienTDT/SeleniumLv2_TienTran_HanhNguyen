@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="A:\JavaPJ\AK21"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\Tien\eclipse-workspace\Selenium Lv2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Tien\Downloads\frameworksele.zip"/>
+			<item value="B:\new music 2018\SeleniumJavaFWSample-master.zip"/>
+			<item value="C:\Users\Tien\Downloads\framework1.zip"/>
+			<item value="C:\Users\Tien\Desktop\framework.zip"/>
+			<item value="A:\Java Li thuyet\TienTran_6348_Railway_framework.zip"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<b>INFO: </b>TEST CASE: tests.project1.go.BugIntegration.verifyLoginTitle]]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: #44aa44;">VERIFY POINT: </b>Verify Login Title Page]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7167" started-at="2019-06-06T02:59:41Z" finished-at="2019-06-06T02:59:48Z">
+    <groups>
+    </groups>
+    <test name="Run Chrome" duration-ms="7167" started-at="2019-06-06T02:59:41Z" finished-at="2019-06-06T02:59:48Z">
+      <class name="tests.project1.go.BugIntegration">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, boolean, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:tests.project1.go.BugIntegration@6c6cb480]" name="beforeMethod" is-config="true" duration-ms="5683" started-at="2019-06-06T02:59:41Z" finished-at="2019-06-06T02:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void tests.project1.go.BugIntegration.verifyLoginTitle()]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b48a640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginTitle()[pri:0, instance:tests.project1.go.BugIntegration@6c6cb480]" name="verifyLoginTitle" duration-ms="19" started-at="2019-06-06T02:59:46Z" description="Verify Login Title Page" finished-at="2019-06-06T02:59:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>INFO: </b>TEST CASE: tests.project1.go.BugIntegration.verifyLoginTitle]]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: #44aa44;">VERIFY POINT: </b>Verify Login Title Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTitle -->
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:tests.project1.go.BugIntegration@6c6cb480]" name="cleanUp" is-config="true" duration-ms="608" started-at="2019-06-06T02:59:47Z" finished-at="2019-06-06T02:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginTitle status=SUCCESS method=BugIntegration.verifyLoginTitle()[pri:0, instance:tests.project1.go.BugIntegration@6c6cb480] output=<b>INFO: </b>TEST CASE: tests.project1.go.BugIntegration.verifyLoginTitle]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.project1.go.BugIntegration -->
+    </test> <!-- Run Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

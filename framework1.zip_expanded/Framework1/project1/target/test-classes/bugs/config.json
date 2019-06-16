@@ -1,0 +1,17 @@
+{
+  "server": "https://vantruongt2.atlassian.net",
+  "username": "truong.pham@logigear.com",
+  "password": "logigear123",
+  "query": "project%20%3D%20ING%20AND%20issuetype%20%3D%20Bug%20AND%20status%20%3D%20Resolved",
+  "testng": {
+    "listeners": [
+      "org.uncommons.reportng.HTMLReporter",
+      "utils.config.TestListener"
+    ],
+    "testParams": {
+      "browser": "chrome.local",
+      "mode": "desktop",
+      "autoLogBug": "true"
+    }
+  }
+}

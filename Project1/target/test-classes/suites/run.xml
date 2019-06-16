@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Auto Generated Suite">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="utils.config.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Verify bugs">
+    <parameter name="mode" value="desktop"/>
+    <parameter name="browser" value="chrome.local"/>
+    <parameter name="autoLogBug" value="true"/>
+    <classes>
+      <class name="tests.invoice2go.BugIntegration">
+        <methods>
+          <include name="verifyLoginTitle"/>
+        </methods>
+      </class> <!-- tests.invoice2go.BugIntegration -->
+    </classes>
+  </test> <!-- Verify bugs -->
+</suite> <!-- Auto Generated Suite -->

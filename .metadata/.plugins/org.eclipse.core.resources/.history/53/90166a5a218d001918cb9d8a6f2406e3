@@ -1,0 +1,56 @@
+package com.logigear.test.ta_dashboard.pom;
+
+import com.logigear.testfw.common.Common;
+import com.logigear.testfw.element.Element;
+
+public class HomePage extends GeneralPage {
+
+	public HomePage() {
+		super(HomePage.class);
+	}
+
+	@Override
+	public void initPageElements() {
+		super.initPageElements();
+	}
+
+	/**
+	 * @author 
+	 * @description wait page loading.
+	 * @param timeOutInSeconds
+	 * @return
+	 */
+	public HomePage waitForLoading(int timeOutInSeconds) {
+		tabExecutionDashboard.waitForDisplay(timeOutInSeconds);
+		LOG.info("Page is loaded successfully");
+		return this;
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	public HomePage waitForLoading() {
+		waitForLoading(Common.ELEMENT_TIMEOUT);
+		return this;
+	}
+	
+	public String checkActiveTab()
+	{
+		String status = tabExecutionDashboard.getClass().toString();
+		System.out.println(status);
+		return status;
+	}
+	
+	/**
+	 * @author tien.duc.tran
+	 * 
+	 * @description select Panel menu item
+	 * 
+	 */
+	
+	public PanelListPage selectPanel() {
+		this.selectMenuItem(0, itemAdminister, selectedElement);
+		return new PanelListPage();
+	}
+}

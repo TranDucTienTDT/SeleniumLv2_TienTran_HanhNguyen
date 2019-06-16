@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="FirstTest(failed)" parallel="methods">
+    <parameter name="environment" value="windows-chrome"/>
+    <classes>
+      <class name="com.logigear.test.ta_dashboard.testcases.LoginTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="beforeMethod"/>
+          <include name="TC001"/>
+        </methods>
+      </class> <!-- com.logigear.test.ta_dashboard.testcases.LoginTest -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

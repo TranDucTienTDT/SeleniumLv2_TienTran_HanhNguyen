@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source folder &apos;SeleniumCore/HeartCore&apos; to &apos;Core&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumCore&apos;&#x0D;&#x0A;- Original element: &apos;SeleniumCore/HeartCore&apos;&#x0D;&#x0A;- Renamed element: &apos;HeartCore&apos;" description="Rename source folder &apos;HeartCore&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/HeartCore" name="Core" stamp="1559402229307" version="1.0"/>
+</session>

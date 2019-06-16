@@ -1,0 +1,49 @@
+{
+	"clientData": {
+		"clientName": "",
+		"email": "",
+		"billTo": ""
+	},
+	"editClientData": {
+		"clientName": "",
+		"email": "",
+		"billTo": ""
+	},
+	"newClientData": {
+		"clientName": "",
+		"email": "",
+		"billTo": ""
+	},
+	"itemData": {
+		"description": "",
+		"quantity": "2",
+		"rate": "4",
+		"unitType": "Hours",
+		"saveToItemList": true,
+		"discount": "",
+		"tax": "0%"
+	},
+	"editItemData": {
+		"description": "",
+		"quantity": "3",
+		"rate": "5",
+		"unitType": "Days",
+		"saveToItemList": true,
+		"discount": "",
+		"tax": "0%"
+	},
+	"newItemData": {
+		"description": "",
+		"quantity": "4",
+		"rate": "6",
+		"unitType": "Hours",
+		"saveToItemList": true,
+		"discount": "",
+		"tax": "0%"
+	},
+	"attactmentName": "testImage.jpeg",
+	"emailAddress": "",
+	"emailSubject": "",
+	"unpaidTex": "Unpaid",
+	"sentText": "Sent"
+}

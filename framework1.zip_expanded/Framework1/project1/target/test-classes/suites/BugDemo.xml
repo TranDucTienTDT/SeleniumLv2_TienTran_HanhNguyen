@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="utils.config.TestListener" />
+	</listeners>
+
+	<test name="Run Chrome">
+		<parameter name="browser" value="chrome.local" />
+		<parameter name="mode" value="desktop" />
+		<parameter name="autoLogBug" value="true" />
+		<classes>
+			<class name="tests.project1.go.BugIntegration" />
+		</classes>
+	</test>
+</suite>

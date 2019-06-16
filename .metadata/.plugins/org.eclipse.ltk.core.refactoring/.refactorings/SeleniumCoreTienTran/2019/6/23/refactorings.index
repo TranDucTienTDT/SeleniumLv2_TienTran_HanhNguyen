@@ -1,0 +1,5 @@
+1559454430959	Rename source folder 'TestSuite'
+1559469976882	Rename type 'RemoteWebDriver'
+1559470005778	Rename type 'LocalWebDriver'
+1559471824712	Move compilation unit
+1559486624713	Rename type 'TestExecuter'
